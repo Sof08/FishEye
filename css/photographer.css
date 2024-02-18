@@ -1,0 +1,196 @@
+#contact_modal {
+    display: none;
+}
+
+.photograph-header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FAFAFA;
+  height: 300px;
+  margin: 0 100px;
+  padding: 0% 4%;
+}
+
+.contact_button {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 11px;
+    width: 170px;
+    height: 70px;
+    border: none;
+    background-color: #901C1C;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal {
+    border-radius: 5px;
+    background-color: #DB8876;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    margin: auto;
+}
+
+.modal header {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modal header img {
+    cursor: pointer;
+}
+
+.modal header h2 {
+    font-size: 64px;
+    font-weight: normal;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    color: #312E2E;
+    font-size: 36px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: self-start;
+    margin-bottom: 26px;
+}
+
+form input {
+    width: 100%;
+    height: 68px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Section photographHeader */
+body {
+    margin-bottom: 30px;
+  }
+  main {
+    width: 100%;
+  }
+  
+  .logo {
+    margin-left: 5%;
+  }
+  .logo #logo {
+    height: 100%;
+  }
+  .presentationP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 1.8em;
+  }
+  .presentationP h1 {
+    color: #d3573c;
+    /*margin: 0;*/
+    font-size: 50px;
+  }
+  .locationP {
+    font-size: 24px;
+    color: #901c1c;
+    margin: 0;
+  }
+  .tagP {
+    font-size: 18px;
+    color: #525252;
+  }
+  .divContact{
+    display: flex;
+    align-items: center;
+  }
+  .divImg {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .photographPhotoProfil {
+    position: absolute;
+    width: 100%; /* Largeur souhaitée */
+    height: 100%; /* Hauteur souhaitée */
+    object-fit: cover; /* Propri*/
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+  }
+.section-realisation{
+  margin: 0 7%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 20px;
+
+
+}
+
+.cardImage{
+  display: flex;
+  flex-direction: column;
+}
+.lienImageGallery{
+  border-radius: 5px;
+  position: relative;
+  height: 350px;
+  width: 350px;    
+  overflow: hidden;
+}
+.imageGallerie{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Description media*/
+
+.descriptionContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  color: #901C1C;
+}
+.likes{
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.btn-like{
+  column-gap: 10px;
+  font-size: 1.2em;
+  border: none;
+  z-index: 40;
+  color: #901C1C;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
